@@ -6,14 +6,11 @@ function back_home(){
 }
 
 function menu(){
-    $menu = "test, work, fun";
+    $menu = "test, work, fun, log";
     $menu = explode(", ",$menu);
     
     for ($i = 0; $i < count($menu); $i++){
         echo '<li><a href = "'.$menu[$i].'.php">'.$menu[$i].'</a></li>';
     }
 }
-
-
-
 ?>
