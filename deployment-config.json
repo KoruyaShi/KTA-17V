@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "172.18.24.52",
+    "username": "root",
+    "password": "Ezreal08",
+    "port": 22,
+    "remotePath": "/var/www/kta",
+    "uploadOnSave": true
+}

@@ -1,16 +1,15 @@
 <?php
-
 function back_home(){
-    echo '<li><a href = "index.php">Home</a></li>';
-    
+    echo '<a href = "index.php"><button>Home</button><br><br></a>';
+
 }
 
 function menu(){
-    $menu = "test, work, fun, log";
+    $menu = "test, work, log";
     $menu = explode(", ",$menu);
-    
+
     for ($i = 0; $i < count($menu); $i++){
-        echo '<li><a href = "'.$menu[$i].'.php">'.$menu[$i].'</a></li>';
+        echo '<a href = "'.$menu[$i].'.php">'.'  '.'<button>'.$menu[$i].'</button>'.'</a>';
     }
 }
 ?>

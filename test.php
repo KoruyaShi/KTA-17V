@@ -1,5 +1,9 @@
 <?php
 
+include 'fun.php';
+
+back_home();
+
 echo "Hello World!<br>";
 //text (string, symbol)
 $name = "Koala";
